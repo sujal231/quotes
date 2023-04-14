@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/teal_200"
+    app:cardUseCompatPadding="true">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="सफल और असफल लोग अपनी क्षमताओं में बहुत भिन्न नहीं होते हैं। वे अपनी क्षमता तक पहुँचने के लिए अपनी इच्छाओं में भिन्न होते हैं"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:gravity="center"/>
+
+</androidx.cardview.widget.CardView>
